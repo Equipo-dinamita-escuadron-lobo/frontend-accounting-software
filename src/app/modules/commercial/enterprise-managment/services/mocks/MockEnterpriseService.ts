@@ -6,7 +6,7 @@ import { EnterpriseType } from '../../models/EnterpriseType';
 
 @Injectable()
 export class MockEnterpriseService {
-  logoDefault: string = "../../../../../../assets/Iconos/enterprise/icon-default.png";
+  logoDefault: string = "assets/Iconos/enterprise/icon-default.png";
 
   enterpriseTypes: EnterpriseType[] = [
     { id: 1, name: 'Privada' },

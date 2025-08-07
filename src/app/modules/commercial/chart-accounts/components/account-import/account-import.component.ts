@@ -20,7 +20,7 @@ export class AccountImportComponent {
   }
 
   downloadExcel() {
-    const fileUrl = '../../../../../../assets/data/chart-accounts/plantillaCatalogoCuentas.xlsx';
+    const fileUrl = 'assets/data/chart-accounts/plantillaCatalogoCuentas.xlsx';
     const a = document.createElement('a');
     a.href = fileUrl;
     a.download = 'plantillaCatalogoCuentas.xlsx';

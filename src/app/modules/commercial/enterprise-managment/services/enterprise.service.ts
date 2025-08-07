@@ -24,7 +24,7 @@ else{
 })
 export class EnterpriseService {
   logoDefault: string =
-    '../../../../../../assets/Iconos/enterprise/icon-default.png';
+    'assets/Iconos/enterprise/icon-default.png';
   /**
    * Test of service
    */
