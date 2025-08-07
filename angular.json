@@ -78,8 +78,7 @@
               ]
             },
             "dev": {
-              "baseHref": "/dev/",
-
+              "baseHref": "/old/",
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true,
