@@ -76,6 +76,17 @@
                   "with": "./src/environments/enviorment.development.ts"
                 }
               ]
+            },
+            "dev": {
+              "optimization": false,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "fileReplacements": [
+                {
+                  "replace": "./src/environments/environment.ts",
+                  "with": "./src/environments/enviorment.dev.ts"
+                }
+              ]
             }
           },
           "defaultConfiguration": "production"
