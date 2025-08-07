@@ -10,7 +10,7 @@ jobs:
 
   docker:
     uses:
-      Equipo-dinamita-escuadron-lobo/workflows/frontend/on-push.yaml@main
+      Equipo-dinamita-escuadron-lobo/workflows/.github/workflows/frontend/on-push.yaml@main
     with:
       repository-name: ${{ github.event.repository.name }}
       environment: dev
