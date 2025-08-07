@@ -4,7 +4,7 @@ import { Subject } from 'rxjs';
 import { environment } from '../../../../../environments/environment';
 
 const API_URL = environment.API_URL
-const URL = environment.URL
+const URL = environment.API_URL
 
 @Injectable({
   providedIn: 'root'

@@ -8,10 +8,10 @@ let API_URL = '';
 
 //Si microservice es de enterprise se cambia la url de la api a local
 if(environment.microservice == 'keycloak'){
-    API_URL = environment.URL;
+    API_URL = environment.API_URL;
 }
 else{
-    API_URL = environment.URL;
+    API_URL = environment.API_URL;
 }
 
 
