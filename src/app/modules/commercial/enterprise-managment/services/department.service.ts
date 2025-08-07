@@ -56,7 +56,7 @@ export class DepartmentService {
   ];
 
   //Production
-  private apiUrl = API_URL + 'address/departments';
+  private apiUrl = API_URL + 'enterprises/address/departments';
   //Local
   //private apiUrl = myAppUrl + 'address/departments';
   constructor(private http: HttpClient) {

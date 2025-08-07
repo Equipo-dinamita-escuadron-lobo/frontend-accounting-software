@@ -19,7 +19,7 @@ else{
 })
 export class CityService {
 
-  private apiUrl = API_URL + 'address/cities'
+  private apiUrl = API_URL + 'enterprises/address/cities'
   constructor(private http: HttpClient) {
 
    }
